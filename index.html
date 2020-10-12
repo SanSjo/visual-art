@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Visual art - kodtest</title>
+</head>
+<body>
+    <section>
+        <header class="header">
+          <div class="titleContainer">
+            <img id="maner" src='/assets/maner.png' alt='maner'>
+            <h1 id="title" class="title"></h1>
+          </div>
+        </header>
+        <main>
+          <div class="berryContainer">
+            <img class="blåbärImg" src="assets/blabar.png" alt="blåbär" />
+          </div>
+          <div class="animated fadeInLeft">
+            <div class="splashContainer">
+                <object id="svg-object" class="svgObject" data="/assets/splash.svg" type="image/svg+xml"></object>
+                <div class="priceContainer">
+                    <p id="price" class="price" ></p>
+                    <div class="subPriceContainer ">
+                        <p id="subPrice" class="subPrice"></p>
+                        <p id="measure" class="measure">/</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="adTitleContainer">
+              <p id="adTitle" class="adTitle"></p>
+              <p id="brandName" class="brandName"></p>
+          </div>
+        </main>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

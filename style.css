@@ -1,0 +1,227 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1920px; 
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.title {
+    font-family: 'ICARubrikBold';
+    height: 200px;
+    background-repeat: none;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#maner {
+    width: 50%;
+    height: 200px;
+    position: relative;
+    display: none;
+}
+
+.berryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blåbärImg {
+    height: 500px;
+}
+
+.splashContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+}
+
+.splash{
+    width: 100%;
+    fill: #f8b9d4;
+  
+}
+.svgObject {
+   fill: #f8b9d4;
+}
+
+g {
+   fill: #f8b9d4;
+}
+
+.priceContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    font-size: 120px;
+    font-family: 'ICARubrikSiffror'; 
+}
+
+#ica-nara-splash {
+    fill: #f8b9d4;
+}
+
+.subPriceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subPrice {
+    font-size: 60px;
+    margin: 0;
+    font-family: 'ICARubrikSiffror';  
+}
+
+.measure {
+    font-family: 'ICAWebTextRegular';
+    font-size: 20px;
+}
+
+.adTitleContainer {
+  margin-left: 30px;
+}
+
+.adTitle {
+  font-family: 'ICAText';
+  font-size: 30px;
+  margin-top: 70px;
+
+  margin-bottom: 0;
+}
+
+.brandName {
+  font-family: 'ICAWebTextRegular';
+  font-size: 15px;
+}
+
+.animated { 
+    animation: 
+      slide-right ease 3s both;
+ }
+
+  
+  @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    50% {  
+      -webkit-transform: translateX(10%);
+      transform:  translateX(10%);      
+    }
+    55% {
+      -webkit-transform: translateX(10%);
+      transform:  rotate(-10deg) translateX(10%);       
+    } 
+    60%
+    {
+      -webkit-transform: translateX(8%);
+      transform:  rotate(10deg) translateX(8%);
+    }
+    70%
+    {
+      -webkit-transform: translateX(10%);
+      transform:  rotate(-10deg) translateX(10%);
+    }
+    80%
+    {
+      -webkit-transform: translateX(8%);
+      transform: rotate(10deg) translateX(8%);
+    }
+    90%
+    {
+      -webkit-transform: translateX(10%);
+      transform: translateX(10%);
+    }
+    100% { 
+        -webkit-transform: translateX(10%);
+        transform: translateX(10%);        
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    50% {  
+      -webkit-transform: translateX(10%);
+      transform:  translateX(10%);      
+    }
+    55% {
+      -webkit-transform: translateX(10%);
+      transform:  rotate(-10deg) translateX(10%);       
+    } 
+    60%
+    {
+      -webkit-transform: translateX(8%);
+      transform:  rotate(10deg) translateX(8%);
+    }
+    70%
+    {
+      -webkit-transform: translateX(10%);
+      transform:  rotate(-10deg) translateX(10%);
+    }
+    80%
+    {
+      -webkit-transform: translateX(8%);
+      transform: rotate(10deg) translateX(8%);
+    }
+    90%
+    {
+      -webkit-transform: translateX(10%);
+      transform: translateX(10%);
+    }
+    100% { 
+        -webkit-transform: translateX(10%);
+        transform: translateX(10%);        
+    }
+  }
+
+
+
+@font-face {
+    font-family: 'ICARubrikSiffror';
+    src: local('ICARubrikSiffror'), url(./fonts/icarubriksiffror-webfont.woff) format('woff');
+  }
+@font-face {
+    font-family: 'ICAText';
+    src: local('ICAText'), url(./fonts/icatext-black-webfont.woff) format('woff');
+  }
+@font-face {
+    font-family: 'ICARubrikBold';
+    src: local('ICARubrikBold'), url(./fonts/ICARubrikBold.woff) format('woff');
+  }
+@font-face {
+    font-family: 'ICAWebTextRegular';
+    src: local('ICAWebTextRegular'), url(./fonts/ICATextWebRegular.woff) format('woff');
+  }
+  
