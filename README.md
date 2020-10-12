@@ -1,4 +1,4 @@
-# visual-art
+# visualart
 
 Build in HTML, CSS and Javascript 
 
